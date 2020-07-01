@@ -1,0 +1,22 @@
+clear
+
+%//////User input///////////////%    
+%Enter paths of the input files:
+input_path_NI = "input/a3NI.csv";
+input_path_MR = "input/a3MR.csv";
+%////////////////////////////////%
+
+%% 1) Data acquisition
+acquisition
+
+%% 2) Data conditioning
+conditioning
+
+%% 3) Extraction of friction, acceleration and distance
+%extraction
+load sample_workspace
+%% 3) Optimization of the model
+optimization
+
+%% 4) Visualization
+visualization
