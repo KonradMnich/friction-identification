@@ -11,6 +11,7 @@ On the movie instead of rack and pinion we've tested a dashpot. Further instruct
 * extraction.m
 * friction_model.m
 * main.m
+* manual.txt
 * optimization.m
 * visualisation
 * /input/a3NI.csv
